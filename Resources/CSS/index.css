@@ -1,0 +1,82 @@
+
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.left {
+    left: 0;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.right {
+    right: 0;
+    background-color: grey;
+    padding-top: 1900px;
+    position: absolute;
+}
+
+.centered {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    padding-left: 50px;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+nav {
+    padding-top: 200px;
+}
+
+p {
+    font-size: larger;
+}
+
+.about {
+    padding-right: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#experience {
+    padding-top: 500px;
+}
+
+#education {
+    padding-top: 500px;
+}
+
+.experiences {
+    color: white;
+    padding-bottom: 20px;
+}
+
+.education {
+    color: white;
+    padding-bottom: 20px;
+}
+
+a {
+    color: black;
+}
+
+#header {
+    position: sticky;
+}
+
